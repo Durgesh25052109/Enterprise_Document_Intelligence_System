@@ -490,7 +490,7 @@ https://nemadoc-ai.streamlit.app/
 
 ### 💻 GitHub Repository
 
-https://github.com/KunalLuthra05/nemodoc-enterprise-document-intelligence
+https://github.com/Durgesh25052109/Enterprise_Document_Intelligence_System.git
 
 ---
 
