@@ -324,6 +324,7 @@ Processes the retrieved context and generates the final natural-language respons
 ## 1. Clone the Repository
 
     git clone https://github.com/Durgesh25052109/Enterprise_Document_Intelligence_System.git
+    
 ## 2. Create a Virtual Environment
 
 ### Windows
