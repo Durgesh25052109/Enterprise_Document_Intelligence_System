@@ -10,7 +10,7 @@ def render_sidebar(
     document_info: dict | None,
 ) -> None:
     """
-    Render the NeMoDoc sidebar.
+    Render the Enterprise Document Intelligence System sidebar.
     """
 
     with st.sidebar:
@@ -24,7 +24,7 @@ def render_sidebar(
             <div class="nm-brand">
 
                 <div class="nm-brand-title">
-                    📄 NeMoDoc
+                    📄 Enterprise Document Intelligence System
                 </div>
 
                 <div class="nm-brand-subtitle">
@@ -186,7 +186,7 @@ def render_sidebar(
             <div class="nm-sidebar-footer">
 
                 <div class="nm-sidebar-version">
-                    NeMoDoc v1.0
+                    Enterprise Document Intelligence System v1.0
                 </div>
 
                 <div class="nm-sidebar-tech">
