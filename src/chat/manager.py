@@ -6,7 +6,7 @@ from .history import ChatHistory
 
 class ChatManager:
     """
-    Manages multiple NeMoDoc conversations.
+    Manages multiple Enterprise Document Intelligence System conversations.
 
     The manager is intentionally independent of Streamlit
     so it can later be connected to persistent storage.
