@@ -8,7 +8,7 @@ from .models import Document
 
 class DocumentManager:
     """
-    Manages NeMoDoc documents independently from chats.
+    Manages Enterprise Document Intelligence System documents independently from chats.
 
     Responsibilities:
 
@@ -110,7 +110,7 @@ class DocumentManager:
         file_bytes: bytes | None = None,
     ) -> Document:
         """
-        Add a document to NeMoDoc.
+        Add a document to the Enterprise Document Intelligence System.
 
         If the document was already processed and its
         vector store exists on disk, reuse it.
