@@ -42,7 +42,7 @@ def render_document_card(
 
 def render_empty_state() -> None:
     """
-    Render the initial NeMoDoc welcome screen.
+    Render the initial Enterprise Document Intelligence System welcome screen.
     """
 
     st.html(
@@ -59,7 +59,8 @@ def render_empty_state() -> None:
 
             <div class="nm-empty-subtitle">
                 Upload a PDF and have a grounded conversation
-                with its contents using NeMoDoc and NVIDIA Nemotron.
+                with its contents using the Enterprise Document Intelligence System
+                and NVIDIA Nemotron.
             </div>
 
         </div>
