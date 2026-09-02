@@ -1,9 +1,9 @@
 import streamlit as st
 
 
-def apply_neomodoc_styles() -> None:
+def apply_document_intelligence_styles() -> None:
     """
-    Apply the global NeMoDoc UI styling.
+    Apply the global Enterprise Document Intelligence System UI styling.
 
     v1.0:
     Modern document intelligence workspace with
