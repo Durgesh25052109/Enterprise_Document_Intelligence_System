@@ -5,7 +5,7 @@ from datetime import datetime
 @dataclass
 class Document:
     """
-    Represents a processed NeMoDoc document.
+    Represents a processed Enterprise Document Intelligence System document.
     """
 
     document_id: str
