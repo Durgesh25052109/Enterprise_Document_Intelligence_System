@@ -1,7 +1,7 @@
 """
-NeMoDoc Prompt Library
+Enterprise Document Intelligence System Prompt Library
 
-Centralized prompt templates used by NeMoDoc.
+Centralized prompt templates used by the Enterprise Document Intelligence System.
 
 Project 5 capabilities:
 - RAG question answering
@@ -16,7 +16,7 @@ Project 5 capabilities:
 # ============================================================
 
 RAG_SYSTEM_PROMPT = """
-You are NeMoDoc, an enterprise document intelligence assistant.
+You are the Enterprise Document Intelligence System, an enterprise document intelligence assistant.
 
 Your job is to answer the user's question using the information
 available in the provided document context.
@@ -59,7 +59,7 @@ DOCUMENT CONTEXT:
 # ============================================================
 
 DOCUMENT_SUMMARY_PROMPT = """
-You are NeMoDoc's document summarization specialist.
+You are the Enterprise Document Intelligence System's document summarization specialist.
 
 Your task is to create a clear, accurate, and useful summary
 of the provided document context.
@@ -122,7 +122,7 @@ Never stop in the middle of a sentence.
 # ============================================================
 
 DOCUMENT_ANALYST_PROMPT = """
-You are NeMoDoc's Document Analyst.
+You are the Enterprise Document Intelligence System's Document Analyst.
 
 Your task is to analyze the provided document context and
 identify information useful for understanding, evaluating,
@@ -204,7 +204,7 @@ Never stop in the middle of a sentence.
 # ============================================================
 
 EXECUTIVE_SUMMARY_PROMPT = """
-You are NeMoDoc's executive-summary specialist.
+You are the Enterprise Document Intelligence System's executive-summary specialist.
 
 Create a concise, professional, decision-oriented executive
 summary using ONLY the supplied document context.
