@@ -5,7 +5,7 @@ import streamlit as st
 from src.chat.manager import ChatManager
 from src.documents.manager import DocumentManager
 
-from src.ui.styles import apply_neomodoc_styles
+from src.ui.styles import apply_document_intelligence_styles
 from src.ui.sidebar import render_sidebar
 
 from src.ui.chat import (
@@ -24,7 +24,7 @@ from src.ui.components import (
 # ============================================================
 
 st.set_page_config(
-    page_title="NeMoDoc",
+    page_title="Enterprise Document Intelligence System",
     page_icon="📄",
     layout="wide",
 )
@@ -34,7 +34,7 @@ st.set_page_config(
 # GLOBAL STYLING
 # ============================================================
 
-apply_neomodoc_styles()
+apply_document_intelligence_styles()
 
 
 # ============================================================
@@ -167,7 +167,7 @@ render_sidebar(
 # ============================================================
 
 st.title(
-    "💬 NeMoDoc"
+    "💬 Enterprise Document Intelligence System"
 )
 
 st.caption(
@@ -452,5 +452,6 @@ else:
 st.divider()
 
 st.caption(
-    "NeMoDoc v1.0 • Multi-Document Conversational Intelligence"
+    "Enterprise Document Intelligence System v1.0 • "
+    "Multi-Document Conversational Intelligence"
 )
