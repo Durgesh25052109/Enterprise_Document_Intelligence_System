@@ -28,7 +28,8 @@ def _call_nemotron(
     """
     Send a generic request to NVIDIA Nemotron.
 
-    This helper is shared by all NeMoDoc capabilities.
+    This helper is shared by all Enterprise Document Intelligence
+    System capabilities.
     """
 
     if not API_KEY:
@@ -238,8 +239,8 @@ def summarize_document(
 
     return _call_nemotron(
         system_prompt=(
-            "You are NeMoDoc's document "
-            "summarization assistant."
+            "You are the Enterprise Document Intelligence "
+            "System's document summarization assistant."
         ),
         user_prompt=prompt,
         max_tokens=5000,
@@ -258,7 +259,8 @@ def analyze_document(
     """
     Perform structured document analysis.
 
-    This represents NeMoDoc's Document Analyst workflow.
+    This represents the Enterprise Document Intelligence
+    System's Document Analyst workflow.
     """
 
     if not context.strip():
@@ -273,7 +275,8 @@ def analyze_document(
 
     return _call_nemotron(
         system_prompt=(
-            "You are NeMoDoc's Document Analyst. "
+            "You are the Enterprise Document Intelligence "
+            "System's Document Analyst. "
             "Analyze documents carefully and provide "
             "structured, evidence-grounded findings."
         ),
@@ -309,8 +312,8 @@ def generate_executive_summary(
 
     return _call_nemotron(
         system_prompt=(
-            "You are NeMoDoc's executive summary "
-            "generation assistant."
+            "You are the Enterprise Document Intelligence "
+            "System's executive summary generation assistant."
         ),
         user_prompt=prompt,
         max_tokens=3000,
@@ -326,24 +329,24 @@ def generate_executive_summary(
 if __name__ == "__main__":
 
     test_context = """
-    NeMoDoc is an Enterprise Document Intelligence
-    System designed to help users interact with PDF
-    documents using Retrieval-Augmented Generation.
+    Enterprise Document Intelligence System is an enterprise
+    document intelligence system designed to help users interact
+    with PDF documents using Retrieval-Augmented Generation.
 
     The system extracts text from documents, divides
     the text into chunks, creates embeddings, stores
     vectors using FAISS, retrieves relevant information,
     and uses NVIDIA Nemotron to generate responses.
 
-    NeMoDoc supports conversational document
-    question answering and independent document
-    conversations.
+    Enterprise Document Intelligence System supports
+    conversational document question answering and
+    independent document conversations.
     """
 
     print("\n--- TEST: QUESTION ANSWERING ---")
 
     answer = ask_nemotron(
-        question="What is NeMoDoc?",
+        question="What is the Enterprise Document Intelligence System?",
         context=test_context,
     )
 
