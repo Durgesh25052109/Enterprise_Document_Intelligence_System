@@ -6,7 +6,7 @@ from typing import Any
 @dataclass
 class Message:
     """
-    Represents a single message in a NeMoDoc conversation.
+    Represents a single message in an Enterprise Document Intelligence System conversation.
     """
 
     role: str
@@ -37,7 +37,7 @@ class Message:
 @dataclass
 class Chat:
     """
-    Represents a NeMoDoc conversation.
+    Represents an Enterprise Document Intelligence System conversation.
 
     A chat can later contain multiple documents,
     persistent history, and cross-chat memory.
